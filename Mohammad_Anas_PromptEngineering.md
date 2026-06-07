@@ -8,9 +8,8 @@ LLM Used: ChatGPT (GPT-5.5)
 
 ## Part 1: Prompt Design & Iteration
 
-'''
 ### 1.1 Scenario A: Technical Explanation
-
+---
 Explain the concept of **Neural Networks** to a 10-year-old child.
 
 #### Initial Prompt (V1)
@@ -48,9 +47,9 @@ A neural network learns in a similar way. It is a computer system that studies m
 For example, if a neural network has seen thousands of pictures of cats, it can learn what cats usually look like. Then, when it sees a new picture, it can decide whether it is a cat or not.
 
 Summary: A neural network is a computer system that learns from examples, just like students learn from practice and experience.
-
+---
 ### 1.1 Scenario B: Professional Email
-
+---
 #### Goal
 
 Draft an email declining a job offer politely while expressing continued interest in the company.
@@ -114,45 +113,33 @@ Thank you once again for your understanding and for the opportunity. I wish you 
 Kind regards,
 
 [Your Name]
-'''
-
+---
 ### 1.1 Scenario C: Creative Content
-
-### Scenario C: Creative Content
-
-#### Goal
+---
 
 Generate a creative marketing tagline for a new eco-friendly water bottle brand.
 
-### Initial Prompt (V1)
+#### Initial Prompt (V1)
 
 Create a tagline for an eco-friendly water bottle brand.
 
----
-
-### Output from V1
+#### Output from V1
 
 Stay hydrated, save the planet.
 
----
-
-### Refined Prompt (V2)
+#### Refined Prompt (V2)
 
 Create 5 catchy marketing taglines for an eco-friendly water bottle brand. The taglines should be short, memorable, and emphasize sustainability.
-
----
-
-### Output from V2
+***
+#### Output from V2
 
 1. Sip Green, Live Clean.
 2. Every Refill Makes a Difference.
 3. Drink Smart, Waste Less.
 4. Hydrate Naturally, Protect Globally.
 5. Refill Today, Renew Tomorrow.
-
----
-
-### Final Prompt (V3)
+***
+#### Final Prompt (V3)
 
 You are an award-winning marketing copywriter specializing in sustainable consumer brands.
 
