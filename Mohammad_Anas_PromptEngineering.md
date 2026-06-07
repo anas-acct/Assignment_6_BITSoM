@@ -208,9 +208,7 @@ Role assignment and context setting significantly improved the quality of the ou
 
 ## Part 2: Temperature & Parameter Control
 
-# Part 2: Temperature & Parameter Control
-
-## 2.1 Temperature Experimentation
+### 2.1 Temperature Experimentation
 
 ### Chosen Task
 
@@ -273,7 +271,7 @@ On the morning the moon forgot to disappear, a crimson door rose from the cobble
 | High (1.3)   | Highly imaginative, unusual details, vivid imagery  | High             | Lower          |
 |              |                                                     |                  |                |
 
-## 2.2 Analysis & Recommendations
+### 2.2 Analysis & Recommendations
 
 Low temperature is most useful when accuracy, consistency, and reliability are important. For example, it is suitable for generating technical documentation and answering factual questions where creativity is not required.
 
