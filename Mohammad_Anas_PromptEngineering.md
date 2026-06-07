@@ -8,9 +8,8 @@ LLM Used: ChatGPT (GPT-5.5)
 
 ## Part 1: Prompt Design & Iteration
 
+'''
 ### 1.1 Scenario A: Technical Explanation
-
-#### Goal
 
 Explain the concept of **Neural Networks** to a 10-year-old child.
 
@@ -115,8 +114,73 @@ Thank you once again for your understanding and for the opportunity. I wish you 
 Kind regards,
 
 [Your Name]
+'''
 
 ### 1.1 Scenario C: Creative Content
+
+### Scenario C: Creative Content
+
+#### Goal
+
+Generate a creative marketing tagline for a new eco-friendly water bottle brand.
+
+### Initial Prompt (V1)
+
+Create a tagline for an eco-friendly water bottle brand.
+
+---
+
+### Output from V1
+
+Stay hydrated, save the planet.
+
+---
+
+### Refined Prompt (V2)
+
+Create 5 catchy marketing taglines for an eco-friendly water bottle brand. The taglines should be short, memorable, and emphasize sustainability.
+
+---
+
+### Output from V2
+
+1. Sip Green, Live Clean.
+2. Every Refill Makes a Difference.
+3. Drink Smart, Waste Less.
+4. Hydrate Naturally, Protect Globally.
+5. Refill Today, Renew Tomorrow.
+
+---
+
+### Final Prompt (V3)
+
+You are an award-winning marketing copywriter specializing in sustainable consumer brands.
+
+A startup is launching a premium eco-friendly reusable water bottle aimed at environmentally conscious young professionals. Create 10 original taglines that are memorable, modern, and emotionally engaging. Focus on sustainability, reducing plastic waste, and making a positive impact. Each tagline should be fewer than 8 words. After generating the taglines, identify the single strongest option and briefly explain why it would work well in a marketing campaign.
+
+---
+
+### Final LLM Output
+
+Taglines:
+
+1. Refill the Bottle, Renew the Future.
+2. Every Sip Leaves Less Waste.
+3. Drink Better. Live Greener.
+4. Carry Change in Every Drop.
+5. Hydration with a Lighter Footprint.
+6. Reuse Today. Restore Tomorrow.
+7. Smart Sips for a Cleaner Planet.
+8. Make Every Refill Count.
+9. Choose Water. Reject Waste.
+10. Sustainable by Choice, Refreshing by Nature.
+
+Strongest Option:
+
+"Carry Change in Every Drop."
+
+Why it works:
+This tagline connects personal action with environmental impact. It is short, memorable, emotionally engaging, and reinforces the idea that every refill contributes to positive change. The phrase is versatile and can be used effectively across advertisements, packaging, social media campaigns, and brand messaging.
 
 
 ### 1.2 Iteration Documentation
