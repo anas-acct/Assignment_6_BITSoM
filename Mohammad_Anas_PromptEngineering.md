@@ -60,8 +60,6 @@ Draft an email declining a job offer politely while expressing continued interes
 
 Write an email declining a job offer.
 
----
-
 #### Output from V1
 
 Dear Hiring Manager,
@@ -73,13 +71,10 @@ Thank you for your consideration.
 Sincerely,
 [Your Name]
 
----
 
 #### Refined Prompt (V2)
 
 Write a professional email declining a job offer politely. Thank the company for the opportunity and maintain a positive relationship for future opportunities.
-
----
 
 #### Output from V2
 
@@ -96,15 +91,12 @@ Thank you again for your understanding.
 Best regards,
 [Your Name]
 
----
-
 #### Final Prompt (V3)
 
 You are a professional career advisor with expertise in business communication.
 
 I have received a job offer from a company that I greatly respect, but I have decided to accept another opportunity that better aligns with my current career goals. Write a polite and professional email declining the offer. Express sincere gratitude, briefly explain the decision without excessive detail, maintain a positive relationship, and clearly state that I would welcome future opportunities with the company. Keep the tone warm, respectful, and professional.
 
----
 
 #### Final LLM Output
 
