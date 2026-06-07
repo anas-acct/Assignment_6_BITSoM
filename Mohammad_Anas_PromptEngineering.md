@@ -67,7 +67,7 @@ Thank you for offering me the position. I have decided not to accept the offer a
 Thank you for your consideration.
 
 Sincerely,
-[Your Name]
+Name
 
 
 #### Refined Prompt (V2)
@@ -87,7 +87,7 @@ I am grateful for the opportunity and hope to stay in touch regarding potential 
 Thank you again for your understanding.
 
 Best regards,
-[Your Name]
+Name
 
 #### Final Prompt (V3)
 
@@ -111,8 +111,8 @@ I am sincerely grateful for your confidence in my abilities and for extending th
 Thank you once again for your understanding and for the opportunity. I wish you and the team continued success.
 
 Kind regards,
+Name
 
-[Your Name]
 ---
 ### 1.1 Scenario C: Creative Content
 ---
