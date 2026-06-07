@@ -4,6 +4,8 @@ Name: Mohammad Anas
 Date: 07 June 2026
 LLM Used: ChatGPT (GPT-5.5)
 
+---
+
 ## Part 1: Prompt Design & Iteration
 
 ### 1.1 Scenario A: Technical Explanation
@@ -16,19 +18,13 @@ Explain the concept of **Neural Networks** to a 10-year-old child.
 
 Explain neural networks to a 10-year-old.
 
----
-
 #### Output from V1
 
 A neural network is a type of computer system inspired by the human brain. It consists of interconnected nodes called neurons that process information. Neural networks learn patterns from data and use those patterns to make predictions or decisions.
 
----
-
 #### Refined Prompt (V2)
 
 You are an elementary school teacher. Explain neural networks to a 10-year-old using simple language and a real-life example. Avoid technical terms.
-
----
 
 #### Output from V2
 
@@ -38,15 +34,11 @@ A neural network learns in a similar way. It looks at many examples and learns p
 
 Just like you learn from experience, a neural network learns from lots of examples.
 
----
-
 #### Final Prompt (V3)
 
 You are an expert teacher who explains difficult science topics to children.
 
 A curious 10-year-old wants to know how artificial intelligence learns. Explain neural networks using a school analogy. Use simple words, avoid technical jargon, keep the explanation under 200 words, and end with a one-sentence summary.
-
----
 
 #### Final LLM Output
 
