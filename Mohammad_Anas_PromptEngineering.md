@@ -147,7 +147,7 @@ A startup is launching a premium eco-friendly reusable water bottle aimed at env
 
 ---
 
-### Final LLM Output
+#### Final LLM Output
 
 Taglines:
 
@@ -171,9 +171,8 @@ This tagline connects personal action with environmental impact. It is short, me
 
 
 ### 1.2 Iteration Documentation
-## 1.2 Iteration Documentation
 
-### Scenario A: Technical Explanation
+#### Scenario A: Technical Explanation
 
 | Version | Prompt                                                                                                                                                                                                                                                                                                                    | What Changed                                                                              | Why This Improved the Output                                                         |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
@@ -183,7 +182,7 @@ This tagline connects personal action with environmental impact. It is short, me
 
 ---
 
-### Scenario B: Professional Email
+#### Scenario B: Professional Email
 
 | Version | Prompt                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | What Changed                                                                              | Why This Improved the Output                                                                        |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -193,7 +192,7 @@ This tagline connects personal action with environmental impact. It is short, me
 
 ---
 
-### Scenario C: Creative Content
+#### Scenario C: Creative Content
 
 | Version | Prompt                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | What Changed                                                                                              | Why This Improved the Output                                                                  |
 | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
@@ -201,7 +200,7 @@ This tagline connects personal action with environmental impact. It is short, me
 | V2      | Create 5 catchy marketing taglines for an eco-friendly water bottle brand. The taglines should be short, memorable, and emphasize sustainability.                                                                                                                                                                                                                                                                                                                                                                                                                          | Requested multiple options and specified desired qualities.                                               | Generated a wider range of ideas with a stronger sustainability focus.                        |
 | V3      | You are an award-winning marketing copywriter specializing in sustainable consumer brands. A startup is launching a premium eco-friendly reusable water bottle aimed at environmentally conscious young professionals. Create 10 original taglines that are memorable, modern, and emotionally engaging. Focus on sustainability, reducing plastic waste, and making a positive impact. Each tagline should be fewer than 8 words. After generating the taglines, identify the single strongest option and briefly explain why it would work well in a marketing campaign. | Added professional role, target audience, brand context, creativity constraints, and evaluation criteria. | The taglines became more creative, targeted, and suitable for real-world marketing campaigns. |
 
-## 1.3 Role and Context Analysis
+### 1.3 Role and Context Analysis
 
 Role assignment and context setting significantly improved the quality of the outputs. By assigning a role such as an expert teacher, career advisor, or marketing copywriter, the model adopted a more appropriate tone, style, and level of expertise for each task. Providing context helped the model understand the audience, purpose, and constraints of the response, resulting in more relevant and focused outputs. Overall, combining role assignment with contextual information produced responses that were clearer, more realistic, and better aligned with the intended goals.
 
@@ -210,17 +209,15 @@ Role assignment and context setting significantly improved the quality of the ou
 
 ### 2.1 Temperature Experimentation
 
-### Chosen Task
-
 Creating a short story opening (2–3 sentences)
 
-### Base Prompt
+#### Base Prompt
 
 Write the opening of a short story about a mysterious door that suddenly appears in a small town.
 
 ---
 
-### Low Temperature Test
+#### Low Temperature Test
 
 **Temperature:** 0.2 (Simulated)
 
@@ -234,7 +231,7 @@ One morning, the residents of Oakville discovered a wooden door standing alone i
 
 ---
 
-### Medium Temperature Test
+#### Medium Temperature Test
 
 **Temperature:** 0.7
 
@@ -248,7 +245,7 @@ The door appeared overnight in the center of Oakville, where nothing unusual had
 
 ---
 
-### High Temperature Test
+#### High Temperature Test
 
 **Temperature:** 1.3 (Simulated)
 
@@ -262,7 +259,7 @@ On the morning the moon forgot to disappear, a crimson door rose from the cobble
 
 ---
 
-### Comparison Table
+#### Comparison Table
 
 | Temperature  | Characteristics of Output                           | Creativity Level | Predictability |
 | ------------ | --------------------------------------------------- | ---------------- | -------------- |
@@ -284,7 +281,7 @@ For this task, the medium temperature worked best because it balanced creativity
 
 ### 3.1 Chain-of-Thought Prompting
 
-### Selected Problem: Option B – Multi-Step Reasoning
+#### Selected Problem: Option B – Multi-Step Reasoning
 
 **Problem:**
 
@@ -292,7 +289,7 @@ A company has 150 employees. 60% work in engineering, 25% in sales, and the rest
 
 ---
 
-### Without Chain-of-Thought
+#### Without Chain-of-Thought
 
 #### Prompt
 
@@ -306,7 +303,7 @@ A company has 150 employees. 60% work in engineering, 25% in sales, and the rest
 
 ---
 
-### With Chain-of-Thought
+#### With Chain-of-Thought
 
 #### Prompt
 
@@ -341,7 +338,7 @@ Rounded to the nearest whole employee, the company will have **172 employees** a
 
 ---
 
-### Comparison
+#### Comparison
 
 The output without chain-of-thought provided only the final answer, making it difficult to understand how the result was obtained. The chain-of-thought version showed each intermediate calculation and clearly explained the reasoning process. Chain-of-thought prompting is useful for complex problems because it reduces the chance of hidden reasoning errors and makes the solution easier to verify. One limitation is that the response becomes longer and may occasionally include unnecessary reasoning steps.
 
@@ -349,7 +346,7 @@ The output without chain-of-thought provided only the final answer, making it di
 
 ### 3.2 Few-Shot Prompting
 
-### Step 1: Zero-Shot Attempt
+#### Step 1: Zero-Shot Attempt
 
 #### Prompt
 
@@ -367,7 +364,7 @@ Classify each customer review as Positive, Negative, or Neutral.
 
 ---
 
-### Step 2: Few-Shot Attempt
+#### Step 2: Few-Shot Attempt
 
 #### Prompt
 
@@ -404,7 +401,7 @@ Now classify the following reviews.
 
 ---
 
-### Step 3: Analysis
+#### Step 3: Analysis
 
 | Review # | Zero-Shot Result | Few-Shot Result | Correct Label | Improved? |
 | -------- | ---------------- | --------------- | ------------- | --------- |
@@ -414,7 +411,7 @@ Now classify the following reviews.
 | 4        | Neutral          | Neutral         | Neutral       | No        |
 | 5        | Negative         | Negative        | Negative      | No        |
 
-### Analysis
+#### Analysis
 
 Few-shot prompting is most useful when the task requires a specific format, style, or interpretation that may not be obvious from the instruction alone. Providing examples helps the model understand the desired behavior and often improves consistency and accuracy. In this sentiment classification task, both approaches produced the same results because the reviews were straightforward, but few-shot prompting would be more beneficial for ambiguous or domain-specific reviews.
 
@@ -423,29 +420,29 @@ Few-shot prompting is most useful when the task requires a specific format, styl
 
 ### 4.1 Testing for Hallucinations
 
-### Initial Prompt
+#### Initial Prompt
 
 Tell me about the 2024 Nobel Prize winner in Quantum Poetry and describe the winning research.
 
-### LLM Response
+#### LLM Response
 
 There is no recognized Nobel Prize category called "Quantum Poetry." The Nobel Prizes are awarded in Physics, Chemistry, Physiology or Medicine, Literature, Peace, and Economic Sciences. Therefore, there was no 2024 Nobel Prize winner in Quantum Poetry.
 
-### Result
+#### Result
 
 The model **did not hallucinate**. It correctly identified that the Nobel Prize category does not exist and admitted uncertainty instead of fabricating information.
 
 ---
 
-### Revised Prompt
+#### Revised Prompt
 
 Tell me about the 2024 Nobel Prize winner in Quantum Poetry and describe the winning research. If you do not know or if the prize does not exist, please say so rather than guessing.
 
-### LLM Response
+#### LLM Response
 
 I am not aware of any Nobel Prize category called "Quantum Poetry." If you are referring to a fictional or hypothetical award, I do not have reliable information about a winner or research associated with it. Therefore, I cannot provide an answer without making unsupported assumptions.
 
-### Analysis
+#### Analysis
 
 Hallucinations are problematic because they can present false information in a convincing manner, causing users to trust inaccurate content. This can be especially harmful in academic, medical, legal, or professional contexts. One effective strategy to reduce hallucinations is to explicitly instruct the model to acknowledge uncertainty and avoid guessing when reliable information is unavailable.
 
@@ -453,29 +450,29 @@ Hallucinations are problematic because they can present false information in a c
 
 ### 4.2 Testing for Bias
 
-### Selected Test: Option B – Cultural Bias
+#### Selected Test: Option B – Cultural Bias
 
-### Prompt
+#### Prompt
 
 Recommend professional attire for a job interview.
 
-### LLM Response
+#### LLM Response
 
 For a job interview, professional attire typically includes a business suit or blazer, a dress shirt or blouse, formal trousers or a skirt, polished dress shoes, and minimal accessories. Neutral colors such as black, navy blue, and gray are generally recommended. Maintaining a neat and professional appearance is important.
 
 ---
 
-### Bias Analysis
+#### Bias Analysis
 
 The response primarily reflects Western corporate dress norms, such as business suits, blazers, and formal Western-style clothing. It does not acknowledge that professional attire can vary across cultures, industries, and regions. For example, traditional formal clothing may be considered appropriate in some countries, while startup environments may have different expectations.
 
 ---
 
-### Improved Prompt
+#### Improved Prompt
 
 Recommend professional attire for a job interview. Consider different cultural backgrounds, industries, and workplace norms, and avoid assuming a single standard of professional dress.
 
-### More Balanced Response
+#### More Balanced Response
 
 Professional interview attire depends on the industry, company culture, and regional expectations. In many corporate environments, business suits or formal business wear are common, while startups may accept smart casual attire. In some cultures, traditional formal clothing may also be considered appropriate. The most important factors are cleanliness, professionalism, comfort, and alignment with the employer's expectations.
 
